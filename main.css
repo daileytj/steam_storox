@@ -103,7 +103,7 @@ section p{
 }
 
 .student_profile{
-  width: 33%;
+  width: 33.3%;
   display: inline-block;
   margin: 40px 0;
 }
@@ -138,4 +138,38 @@ footer p{
   text-align: center;
   color: #00695C;
   font-size: .8em;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width:780px){
+  .hero{
+    background-attachment: scroll;
+  }
+
+  .hero p{
+    top: 200px;
+  }
+
+  .student_profile{
+    width:50%;
+  }
+}
+
+@media only screen and (max-width:550px){
+  nav h1{
+    font-size: 1.2em;
+  }
+
+  nav li a{
+    font-size: .9em;
+  }
+
+  .hero p{
+    top: 150px;
+  }
+
+  .student_profile{
+    width:100%;
+  }
 }
